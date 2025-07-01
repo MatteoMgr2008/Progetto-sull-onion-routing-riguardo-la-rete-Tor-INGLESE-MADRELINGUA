@@ -1,0 +1,26 @@
+# Evita i file temporanei di Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Evita i file temporanei di editor di codice
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Evita i file di sistema inutili
+.DS_Store
+Thumbs.db
+
+# Evita gli ambienti virtuali
+venv/
+.env/
+
+# Altri file temporanei o di cache da evitare
+*.log
+*.tmp
+*.swp
+*.bak
+*.egg-info/
